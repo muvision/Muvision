@@ -1,0 +1,5 @@
+django-env
+mysite/muvision/ensemble_model.h5
+mysite/muvision/custom_model.h5
+mysite/definitions.py
+*.pyc
