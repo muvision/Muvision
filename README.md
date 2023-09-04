@@ -1,5 +1,11 @@
 # Muvision 
 Website: [Muvision](https://muvision.netlify.app/)
+This repository is made up of many different repositories, which can be found in the following links:
+[Backend](https://github.com/muvision/backend)
+[Frontend](https://github.com/muvision/front-end)
+[ML Model](https://github.com/muvision/CNN)
+[OpenCV](https://github.com/muvision/cm-mathvision)
+
 ## Aim
 This project aims to create a web application that is able to convert handwritten math text to LaTeX, a document preparation that uses the TeX typesetting format that is widely used in academia for text related to math. Currently, the application can detect basic math symbols (numbers, basic arithmetic operations such as addition, multiplication, division, and subtraction, and some letters (specifically x,y,z). The choice of symbols is due to the complexities and difficulties of detecting more complex math symbols and the data set that was used to train the machine learning models. For future aspirations, see the section on future aspirations.
 
@@ -106,3 +112,9 @@ To run the script in Google Drive, create a folder called "Muvision" that contai
 The dataset that we used for this project is found here: [https://www.kaggle.com/datasets/sagyamthapa/handwritten-math-symbols](https://www.kaggle.com/datasets/sagyamthapa/handwritten-math-symbols). Initially we used this dataset: [https://github.com/ThomasLech/CROHME_extractor](https://github.com/ThomasLech/CROHME_extractor) but we found that the letters were too skeletonized and thus leading to inaccurate results.
 
 Inside the "datasets" folder in the Google Drive project, upload the dataset used (link above) and put it in a folder called "handwritten_math_symbols". 
+
+### Running locally
+It is possible to run the files locally on Jupyter Notebook or Jupyter Lab, although changes may have to be made to directories. A requirements.txt file is attached to the repository for libraries and dependencies. 
+
+## OpenCV
+Similar to the ML Model training, the OpenCV portion was developed using Google Collab as well. The OpenCV uses the library to identify lines of math text and the subsequent individual characters in the lines. The whole process is organized into a pandas dataframe. 
