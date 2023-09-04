@@ -1,0 +1,9 @@
+tensorflow
+opendatasets
+pandas
+numpy
+opencv-python
+mathplotlib
+Pillow
+patool
+
