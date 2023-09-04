@@ -1,4 +1,17 @@
-# Muvision
+# Muvision 
+Website: [Muvision](https://muvision.netlify.app/)
+## Aim
+This project aims to create a web application that is able to convert handwritten math text to LaTeX, a document preparation that uses the TeX typesetting format that is widely used in academia for text related to math. Currently, the application can detect basic math symbols (numbers, basic arithmetic operations such as addition, multiplication, division, and subtraction, and some letters (specifically x,y,z). The choice of symbols is due to the complexities and difficulties of detecting more complex math symbols and the data set that was used to train the machine learning models. For future aspirations, see the section on future aspirations.
+
+Over the course of the project, we aimed to incorporate a multitude of different technologies, such as cloud computing (AWS), Machine Learning (Tensorflow) and Computer Vision (OpenCV). 
+
+## Future Aspirations
+Our aim is to hopefully have the time to add additional symbols to the ML model such as integrals, brackets and other letters. In addition, we hope to add the detection of additional math operations, such as fractions, matrices, and square roots. 
+
+## Project Structure
+From the frontend, the user draws some math text on the custom whiteboard. When the user presses "Submit", the frontend sends a POST request to the backend, which uses the OpenCV algorithm that we developed to isolate lines of math text and individual characters. The machine learning model that we developed will then detect the character. 
+
+The frontend is hosted on Netlify, and the backend is hosted on an AWS EC2 instance, launched using Amazon's [Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) service. A custom domain set up with an SSL certificate is used as a server. 
 
 ## Backend
 **Backend created using Django**
