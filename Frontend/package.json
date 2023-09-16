@@ -15,7 +15,6 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
-    "react-mathjax": "^1.0.1",
     "react-scripts": "5.0.1",
     "react-simple-white-board": "^1.0.3",
     "simple-white-board": "^1.0.5",
