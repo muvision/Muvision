@@ -1,5 +1,9 @@
 # Muvision 
-Website: [Muvision](https://muvision.netlify.app/)
+
+![image](https://github.com/muvision/Muvision/assets/113735719/b5b2d8c3-d678-4b8c-806f-7d07d721f211)
+
+Website: [Muvision](https://muvision.netlify.app/).
+
 This repository is made up of many different repositories, which can be found in the following links:
 [Backend](https://github.com/muvision/backend)
 [Frontend](https://github.com/muvision/front-end)
