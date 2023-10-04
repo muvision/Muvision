@@ -18,6 +18,8 @@ Over the course of the project, we aimed to incorporate a multitude of different
 ## Future Aspirations
 Our aim is to hopefully have the time to add additional symbols to the ML model such as integrals, brackets and other letters. In addition, we hope to add the detection of additional math operations, such as fractions, matrices, and square roots. 
 
+Once the math-vision is completed, we aim to provide students with feedback on their own practice problems, so that they can get actionable feedback on their solutions.
+
 ## Project Structure
 From the frontend, the user draws some math text on the custom whiteboard. When the user presses "Submit", the frontend sends a POST request to the backend, which uses the OpenCV algorithm that we developed to isolate lines of math text and individual characters. The machine learning model that we developed will then detect the character. 
 
