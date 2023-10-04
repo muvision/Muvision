@@ -1,3 +1,8 @@
+## Aim
+This project aims to create a web application that is able to convert handwritten math text to LaTeX, a document preparation that uses the TeX typesetting format that is widely used in academia for text related to math. Currently, the application can detect basic math symbols (numbers, basic arithmetic operations such as addition, multiplication, division, and subtraction, and some letters (specifically x,y,z). The choice of symbols is due to the complexities and difficulties of detecting more complex math symbols and the data set that was used to train the machine learning models. For future aspirations, see the section on future aspirations.
+
+Over the course of the project, we aimed to incorporate a multitude of different technologies, such as cloud computing (AWS), Machine Learning (Tensorflow) and Computer Vision (OpenCV). 
+
 # Muvision 
 
 ![image](https://github.com/muvision/Muvision/assets/113735719/b5b2d8c3-d678-4b8c-806f-7d07d721f211)
@@ -9,11 +14,6 @@ This repository is made up of many different repositories, which can be found in
 [Frontend](https://github.com/muvision/front-end)
 [ML Model](https://github.com/muvision/CNN)
 [OpenCV](https://github.com/muvision/cm-mathvision)
-
-## Aim
-This project aims to create a web application that is able to convert handwritten math text to LaTeX, a document preparation that uses the TeX typesetting format that is widely used in academia for text related to math. Currently, the application can detect basic math symbols (numbers, basic arithmetic operations such as addition, multiplication, division, and subtraction, and some letters (specifically x,y,z). The choice of symbols is due to the complexities and difficulties of detecting more complex math symbols and the data set that was used to train the machine learning models. For future aspirations, see the section on future aspirations.
-
-Over the course of the project, we aimed to incorporate a multitude of different technologies, such as cloud computing (AWS), Machine Learning (Tensorflow) and Computer Vision (OpenCV). 
 
 ## Future Aspirations
 Our aim is to hopefully have the time to add additional symbols to the ML model such as integrals, brackets and other letters. In addition, we hope to add the detection of additional math operations, such as fractions, matrices, and square roots. 
