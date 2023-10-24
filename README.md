@@ -122,5 +122,5 @@ Inside the "datasets" folder in the Google Drive project, upload the dataset use
 ### Running locally
 It is possible to run the files locally on Jupyter Notebook or Jupyter Lab, although changes may have to be made to directories. A requirements.txt file is attached to the repository for libraries and dependencies. 
 
-## OpenCV
-Similar to the ML Model training, the OpenCV portion was developed using Google Collab as well. The OpenCV uses the library to identify lines of math text and the subsequent individual characters in the lines. The whole process is organized into a pandas dataframe. 
+## Optical Character Recognition
+Similar to the ML Model training, the Optical Character Recognition uses OpenCV and was developed using Google Collab as well. The Optical Character Recognition uses OpenCV to identify lines of math text and the subsequent individual characters in the lines. The whole process is organized into a pandas dataframe. 
